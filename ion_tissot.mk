@@ -26,7 +26,7 @@ $(call inherit-product, vendor/ion/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tissot
-PRODUCT_NAME := derp_tissot
+PRODUCT_NAME := ion_tissot
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A1
