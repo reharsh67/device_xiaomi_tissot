@@ -67,7 +67,8 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8953 \
-    libmm-qcamera
+    libmm-qcamera \
+    Snap
 
 # ConsumerIr
 PRODUCT_PACKAGES += \
@@ -112,4 +113,8 @@ $(call inherit-product, build/target/product/verity.mk)
 # Via
 PRODUCT_PACKAGES += \
     Via
+
+# Via
+PRODUCT_PACKAGES += \
+    Asus
 
