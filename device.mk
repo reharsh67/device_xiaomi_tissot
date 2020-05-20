@@ -114,7 +114,5 @@ $(call inherit-product, build/target/product/verity.mk)
 PRODUCT_PACKAGES += \
     Via
 
-# Via
-PRODUCT_PACKAGES += \
-    Asus
+
 
