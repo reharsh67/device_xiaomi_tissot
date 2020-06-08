@@ -112,6 +112,8 @@ $(call inherit-product, build/target/product/verity.mk)
 # Via
 PRODUCT_PACKAGES += \
     Via
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 
 # GCam Go
